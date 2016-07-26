@@ -1,3 +1,8 @@
-module.exports = (req, res) => {
-  res.send(200);
+var router = require('express').Router(),
+    users = require('./users');
+
+module.exports = () => {
+  router.use('/users', users());
+
+  return router;
 };
