@@ -1,0 +1,27 @@
+{
+  "name": "chex-api",
+  "version": "0.0.0",
+  "description": "Back-end for chess web app",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha test/",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bent0b0x/chex-api.git"
+  },
+  "author": "Ben Baum",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bent0b0x/chex-api/issues"
+  },
+  "homepage": "https://github.com/bent0b0x/chex-api#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
+}
